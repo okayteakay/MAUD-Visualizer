@@ -1,4 +1,4 @@
-# MarkupMnA-GroundTruth-Visualizer
+# MAUD-Visualizer
 
 ## Run on pulic website
 Use url: https://xd2287.github.io/MarkupMnA-Colornizer-GroudTruth/
