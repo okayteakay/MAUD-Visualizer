@@ -6,10 +6,10 @@
 - RUN ON PUBLIC WEBSITE - [https://okayteakay.github.io/MAUD-Visualizer/](https://okayteakay.github.io/MAUD-Visualizer/)
 
 - OR RUN LOCALLY
-- **1. Download and install XAMPP (Recommended)**
-- **2. Put the project folder “MAUD-Visualizer under “xampp/htdocs/”**
-- **3. Open XAMPP Control Panel Start Apache service**
-- **4. Access [http://localhost/MAUD-Visualizer/](http://localhost/MAUD-Visualizer/) in Google Chrome to open the website.**
+  - **1. Download and install XAMPP (Recommended)**
+  - **2. Put the project folder “MAUD-Visualizer under “xampp/htdocs/”**
+  - **3. Open XAMPP Control Panel Start Apache service**
+  - **4. Access [http://localhost/MAUD-Visualizer/](http://localhost/MAUD-Visualizer/) in Google Chrome to open the website.**
 
 - USAGE
 - **For now, use a contract .csv file from MarkupMnA, pass it through highlighted_path_finder.py, then input the .csv file.**
