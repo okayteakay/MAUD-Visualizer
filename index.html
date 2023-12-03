@@ -17,7 +17,7 @@
     <div class="file-upload">
       <div class="file-upload-heading">
         <h2> Instructions </h2>
-        <p> You can visualize the dataset by uploading a HTML file and the corresponding CSV file (Option 1), or by selecting a contract number (Option 2).</p>
+        <p> You can visualize the dataset by uploading a HTML file and the corresponding CSV file</p>
       </div>
       <div class="file-upload-options">
         <div class="file-upload-option1">
@@ -33,18 +33,6 @@
               Choose a CSV file containing the ground truth:
             </label>
             <input type="file" id="csv-file-selector"/>
-          </p>
-        </div>
-        <div class="file-upload-option2">
-          <h3> Option 2</h3>
-          <p class="option2-step1"> Step 1:<button onclick="refreshPage()" class="refresh-button">Refresh</button>
-          </p>
-          <p> Step 2: 
-            <label class="file-label">
-              Choose the contract you want to display:
-            </label>
-            <input id="select-contract" type="text" list="contract-options" placeholder="Pleas select contract no">
-            <datalist id="contract-options"></datalist>
           </p>
         </div>
       </div>
@@ -63,138 +51,92 @@
               <th>Prediction category (segment type)</th>
               <th>Color</th>
             </tr>
-<!--             
             <tr>
-              <td>t (title)</td>
-              <td style="background-color: #FF8C00;">DarkOrange</td>
-            </tr>
-      
-            <tr>
-              <td>tn (title number)</td>
-              <td style="background-color: #E9967A;">DarkSalmon</td>
-            </tr>
-            <tr>
-              <td>n (page number)</td>
-              <td style="background-color: #FFD700;">Gold</td>
-            </tr>
-            <tr>
-              <td>st (section title)</td>
-              <td style="background-color: #F08080;">LightCoral</td>
-            </tr>
-            <tr>
-              <td>sn (section number)</td>
-              <td style="background-color: #CD5C5C;">IndianRed</td>
-            </tr>
-            <tr>
-              <td>sst (sub-section title)</td>
-              <td style="background-color: #DDA0DD;">Plum</td>
-            </tr>
-            <tr>
-              <td>ssn (sub-section number)</td>
-              <td style="background-color: #FA8072;">Salmon</td>
-            </tr>
-            <tr>
-              <td>ssst (sub-sub-section title)</td>
-              <td style="background-color: #5F9EA0;">CadetBlue</td>
-            </tr>
-            <tr>
-              <td>sssn (sub-sub-section number)</td>
-              <td style="background-color: #B0C4DE;">LightSteelBlue</td>
-            </tr>
-            <tr>
-              <td>sssst (sub-sub-sub-section title)</td>
-              <td style="background-color: #98FB98;">PaleGreen</td>
-            </tr>
-            <tr>
-              <td>ssssn (sub-sub-sub-section number)</td>
-              <td style="background-color: #66CDAA;">MediumAquaMarine</td>
-            </tr> -->
-            <tr>
-              <td>Question 1</td>
+              <td>Abs of Lit. Closing Cond</td>
               <td style="background-color: #FF5733">VividOrange</td>
             </tr>
             <tr>
-              <td>Question 2</td>
+              <td>Acc of Target R&W Closing Cond</td>
               <td style="background-color: #33FF57">MintGreen</td>
             </tr>
             <tr>
-              <td>Question 3</td>
+              <td>Agmt provides for matching rights in conn. with COR</td>
               <td style="background-color: #5733FF">RoyalPurple</td>
             </tr>
             <tr>
-              <td>Question 4</td>
+              <td>Agmt provides for matching rights in conn. with FTR</td>
               <td style="background-color: #FF3377">RaspberryPink</td>
             </tr>
             <tr>
-              <td>Question 5</td>
+              <td>Breach of Meeting Covenant</td>
               <td style="background-color: #33FFBB">Turquoise</td>
             </tr>
             <tr>
-              <td>Question 6</td>
+              <td>Breach of No Shop</td>
               <td style="background-color: #BB33FF">DeepLavender</td>
             </tr>
             <tr>
-              <td>Question 7</td>
+              <td>Compl. with Covenant Closing Cond.</td>
               <td style="background-color: #FFD633">GoldenYellow</td>
             </tr>
             <tr>
-              <td>Question 8</td>
+              <td>FTR Triggers</td>
               <td style="background-color: #3366FF">SkyBlue</td>
             </tr>
             <tr>
-              <td>Question 9</td>
+              <td>Fiduciary excp to COR Convent</td>
               <td style="background-color: #FF3366">CrimsonRed</td>
             </tr>
             <tr>
-              <td>Question 10</td>
+              <td>Fid. excpt: Board determination (no-shop)</td>
               <td style="background-color: #33FFD6">LightSeaGreen</td>
             </tr>
             <tr>
-              <td>Question 11</td>
+              <td>Gen Antitrust Efforts Standard</td>
               <td style="background-color: #D633FF">ElectricPurple</td>
             </tr>
             <tr>
-              <td>Question 12</td>
+              <td>Intervening Event Definition</td>
               <td style="background-color: #FF9333">Tangerine</td>
             </tr>
             <tr>
-              <td>Question 13</td>
+              <td>Knowledge Definition</td>
               <td style="background-color: #33D6FF">BabyBlue</td>
             </tr>
             <tr>
-              <td>Question 14</td>
+              <td>Lim. on FTR exercise</td>
               <td style="background-color: #D6FF33">LimeGreen</td>
             </tr>
             <tr>
-              <td>Question 15</td>
+              <td>MAE Definition</td>
               <td style="background-color: #3333FF">MediumBlue</td>
             </tr>
             <tr>
-              <td>Question 16</td>
+              <td>Neg. Interim operating convenant</td>
               <td style="background-color: #FF33D6">Magenta</td>
             </tr>
             <tr>
-              <td>Question 17</td>
+              <td>No Shop</td>
               <td style="background-color: #33FF33">Lime</td>
             </tr>
             <tr>
-              <td>Question 18</td>
+              <td>Ordinary course covenant</td>
               <td style="background-color: #FF33BB">HotPink</td>
             </tr>
             <tr>
-              <td>Question 19</td>
+              <td>Specific Performance</td>
               <td style="background-color: #33BBFF">Cyan</td>
             </tr>
             <tr>
-              <td>Question 20</td>
+              <td>Superior Offer Defn</td>
               <td style="background-color: #BBFF33">Chartreuse</td>
             </tr>
             <tr>
-              <td>Question 21</td>
+              <td>Tail Period & Acq Proposal Details</td>
               <td style="background-color: #FFBB33">Amber</td>
             </tr>
             <tr>
-              <td>Question 22</td>
+              <td>Type of Consideration</td>
               <td style="background-color: #33FF93">Teal</td>
             </tr>
             <!-- <tr>
