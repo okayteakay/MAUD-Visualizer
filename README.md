@@ -1,7 +1,7 @@
 
 # MAUD-Visualizer
 
-<h3 align="center">A visualization pipeline specifically made for visualizing ground truth and predictions on the Merger & Acquisition Understanding Dataset (MAUD) [1] </h3>
+<h3 align="center">A visualization pipeline specifically made for visualizing ground truth and predictions on the Merger & Acquisition Understanding Dataset (MAUD) <sup>[1]</sup> </h3>
 
 Follow steps for USAGE! 
 After step 1, perform either step 2 or step 3 (not both).
@@ -23,8 +23,8 @@ After step 1, perform either step 2 or step 3 (not both).
 
 For queries, reach out at **tayyibah@nyu.edu**
 
-References:
-  [1] Wang, S.H., Scardigli, A., Tang, L., Chen, W., Levkin, D., Chen, A., Ball, S., Woodside, T., Zhang, O. and Hendrycks, D., 2023. MAUD: An Expert-Annotated Legal NLP Dataset for Merger Agreement Understanding. arXiv preprint arXiv:2301.00876.
+- References:
+  - [1] Wang, S.H., Scardigli, A., Tang, L., Chen, W., Levkin, D., Chen, A., Ball, S., Woodside, T., Zhang, O. and Hendrycks, D., 2023. MAUD: An Expert-Annotated Legal NLP Dataset for Merger Agreement Understanding. arXiv preprint arXiv:2301.00876.
 
 
 <h3 align="left">Languages and Tools:</h3>
