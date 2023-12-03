@@ -24,7 +24,7 @@ After step 1, perform either step 2 or step 3 (not both).
 - For queries, reach out at **tayyibah@nyu.edu**
 
 <h3 align="left">Connect with me:</h3>
-<p align="left">
+<p align="left">tayyibah@nyu.edu</p>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
