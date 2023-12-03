@@ -10,4 +10,5 @@ Use url: https://okayteakay.github.io/MAUD-Visualizer/
 4. Start Apache service
 5. Access http://localhost/MAUD-Visualizer/ in Google Chrome to open the website.
 
-## For now, use a contract csv file from MarkupMnA, pass through fuzzy_match_2.py in multi-modal-mna, then put the csv file
+## Usage
+For now, use a contract csv file from MarkupMnA, pass it through highlighted_path_finder.py in multi-modal-mna, then input the .csv file.
