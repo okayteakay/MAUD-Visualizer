@@ -23,9 +23,11 @@ After step 1, perform either step 2 or step 3 (not both).
 
 For queries, reach out at **tayyibah@nyu.edu**
 
+References:
+  [1] Wang, S.H., Scardigli, A., Tang, L., Chen, W., Levkin, D., Chen, A., Ball, S., Woodside, T., Zhang, O. and Hendrycks, D., 2023. MAUD: An Expert-Annotated Legal NLP Dataset for Merger Agreement Understanding. arXiv preprint arXiv:2301.00876.
+
+
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
-References:
-[1] Wang, S.H., Scardigli, A., Tang, L., Chen, W., Levkin, D., Chen, A., Ball, S., Woodside, T., Zhang, O. and Hendrycks, D., 2023. MAUD: An Expert-Annotated Legal NLP Dataset for Merger Agreement Understanding. arXiv preprint arXiv:2301.00876.
 
