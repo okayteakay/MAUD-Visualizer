@@ -3,7 +3,7 @@
 
 <h3 align="center">A visualization pipeline specifically made for visualizing ground truth and predictions on the Merger & Acquisition Understanding Dataset</h3>
 
-- Run on public website - [Use URL -](https://okayteakay.github.io/MAUD-Visualizer/)
+- Run on public website - [https://okayteakay.github.io/MAUD-Visualizer/](https://okayteakay.github.io/MAUD-Visualizer/)
 
 - OR Run locally **1. Download and install XAMPP (Recommended) 2. Put the project folder “MAUD-Visualizer under “xampp/htdocs/” 3. Open XAMPP Control Panel Start Apache service 4. Access http://localhost/MAUD-Visualizer/ in Google Chrome to open the website.**
 
