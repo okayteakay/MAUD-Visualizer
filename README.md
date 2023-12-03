@@ -1,3 +1,6 @@
+
+# MAUD-Visualizer
+
 <h3 align="center">A visualization pipeline specifically made for visualizing ground truth and predictions on the Merger & Acquisition Understanding Dataset</h3>
 
 - Run on public website - [Use URL -](https://okayteakay.github.io/MAUD-Visualizer/)
@@ -17,8 +20,6 @@
 
 
 
-
-# MAUD-Visualizer
 
 ## Run on pulic website
 Use url: https://okayteakay.github.io/MAUD-Visualizer/
