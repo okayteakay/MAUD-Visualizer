@@ -3,16 +3,23 @@
 
 <h3 align="center">A visualization pipeline specifically made for visualizing ground truth and predictions on the Merger & Acquisition Understanding Dataset</h3>
 
-- RUN ON PUBLIC WEBSITE - [https://okayteakay.github.io/MAUD-Visualizer/](https://okayteakay.github.io/MAUD-Visualizer/)
+Follow steps for USAGE! 
+After step 1, perform either step 2 or step 3 (not both).
 
-- OR RUN LOCALLY
-  - **1. Download and install XAMPP (Recommended)**
-  - **2. Put the project folder “MAUD-Visualizer under “xampp/htdocs/”**
-  - **3. Open XAMPP Control Panel Start Apache service**
-  - **4. Access [http://localhost/MAUD-Visualizer/](http://localhost/MAUD-Visualizer/) in Google Chrome to open the website.**
+- **1. Generating MAUD .csv file**
+  - i. Clone this repository.
+  - ii. Download requirements: pip install fuzzywuzzy.
+  - iii. Run highlighted_path_finder.py using the command "python highlighted_path_finder.py --contract_idx CONTRACT_NUMBER_BETWEEN_0_AND_135"
+  - iv. This will generate a contract in the "generated_csv" folder. A few of them are already present in the folder.
+  - v. Download this generated csv and use it along with the HTML file for the conntract for visualization
+  
+- **2. RUN ON PUBLIC WEBSITE** - [https://okayteakay.github.io/MAUD-Visualizer/](https://okayteakay.github.io/MAUD-Visualizer/)
 
-- USAGE
-- **For now, use a contract .csv file from MarkupMnA, pass it through highlighted_path_finder.py, then input the .csv file.**
+- **3. RUN LOCALLY**
+  - i. Download and install XAMPP (Recommended)
+  - ii. Put the project folder “MAUD-Visualizer under “xampp/htdocs/”
+  - iii. Open XAMPP Control Panel Start Apache service
+  - iv. Access [http://localhost/MAUD-Visualizer/](http://localhost/MAUD-Visualizer/) in Google Chrome to open the website.
 
 - For queries, reach out at **tayyibah@nyu.edu**
 
@@ -25,22 +32,3 @@
 
 
 
-
-## Run on pulic website
-Use url: https://okayteakay.github.io/MAUD-Visualizer/
-
-## Run locally
-1. Download and install XAMPP (Recommended)
-2. Put the project folder “MAUD-Visualizer under “xampp/htdocs/”
-3. Open XAMPP Control Panel 
-4. Start Apache service
-5. Access http://localhost/MAUD-Visualizer/ in Google Chrome to open the website.
-
-## Usage
-For now, use a contract csv file from MarkupMnA, pass it through highlighted_path_finder.py in multi-modal-mna, then input the .csv file.
-9
-- Clone the repository
-- Download requirements: pip install fuzzywuzzy
-- Run highlighted_path_finder.py using the command "python highlighted_path_finder.py --contract_idx CONTRACT_NUMBER_BETWEEN_0_AND_131"
-- This will generate a contract in the generated_csv folder. A few of them are already in the folder
-- Download this generated csv and use it along with the HTML file for the conntract for visualization
