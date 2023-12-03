@@ -38,3 +38,9 @@ Use url: https://okayteakay.github.io/MAUD-Visualizer/
 
 ## Usage
 For now, use a contract csv file from MarkupMnA, pass it through highlighted_path_finder.py in multi-modal-mna, then input the .csv file.
+9
+- Clone the repository
+- Download requirements: pip install fuzzywuzzy
+- Run highlighted_path_finder.py using the command "python highlighted_path_finder.py --contract_idx CONTRACT_NUMBER_BETWEEN_0_AND_131"
+- This will generate a contract in the generated_csv folder. A few of them are already in the folder
+- Download this generated csv and use it along with the HTML file for the conntract for visualization
