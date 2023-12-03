@@ -9,7 +9,7 @@ After step 1, perform either step 2 or step 3 (not both).
 - **1. Generating MAUD .csv file**
   - i. Clone this repository.
   - ii. Download requirements: pip install fuzzywuzzy.
-  - iii. Run highlighted_path_finder.py using the command "python highlighted_path_finder.py --contract_idx CONTRACT_NUMBER_BETWEEN_0_AND_135"
+  - iii. Run highlighted_path_finder.py using the command ``python highlighted_path_finder.py --contract_idx CONTRACT_NUMBER_BETWEEN_0_AND_135``
   - iv. This will generate a contract in the [generated_csv](https://github.com/okayteakay/MAUD-Visualizer/tree/main/contracts/generated_csv) folder. A few of them are already present in the folder.
   - v. Download this generated csv and use it along with the HTML file for the conntract for visualization
   
